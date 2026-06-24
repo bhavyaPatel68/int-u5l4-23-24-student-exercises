@@ -5,30 +5,34 @@ let container = document.querySelector(".container");
 // 1. Create an h2 element.
 // - Store it in a variable called h2.
 
+let heading = document.createElement("h2");
 
 // 2. Set the innerHTML of h2 to your name.
-
+heading.innerHTML = "Bhavya";
 
 
 // 3. Style at least two different properties for the heading.
-
+heading.style.color = "blue";
+heading.style.fontSize = "2rem";
 
 
 // 4. Select the container div and append the h2 element.
-
+container.appendChild(heading);
 
 
 // 5. Create a paragraph element.
 // - Store it in a variable called para.
-
+let para = document.createElement("p");
 
 // 6. Set the innerHTML of para to a fact about yourself.
+para.innerHTML = "I broke 80 at rolling hills";
 
-
-// 7. Style at least two different properties for the paragraph.
-
+// 7. Style at least two different properties for the paragraph.    
+para.style.color = "darkgreen";
+para.style.lineHeight = "1.5";
 
 // 8. Select the container div and append the paragraph element.
+container.appendChild(para);
 
 
 
